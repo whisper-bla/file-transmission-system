@@ -36,12 +36,12 @@ QUIT              # 退出
 协议设计
 每个数据包固定 1044 字节：
 字段	       大小	   说明
-pa_number	     4	   包序号
-pa_action	     4	   GET/PUT/MSG/QUIT
-pa_type	       4	   文件名/文件内容/消息
-pa_status	     4	   开始/中间/结束
-pa_size	       4	   数据长度
-pa_context	1024	   数据内容
+pa_number	   4	     包序号
+pa_action	   4	     GET/PUT/MSG/QUIT
+pa_type	     4	     文件名/文件内容/消息
+pa_status	   4	     开始/中间/结束
+pa_size	     4	     数据长度
+pa_context	 1024	   数据内容
 
 技术栈
 C++ / Socket / TCP
